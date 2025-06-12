@@ -15,7 +15,7 @@ This guide documents a **step-by-step setup** for building a real-time CCTV dete
 - ✅ Virtual environment (`opencv_env`) for clean isolation
 
 > ⚙️ **Tested on**: NVIDIA RTX 4500 | CUDA 12.8 | Ubuntu 24.04.2 | Python 3.12.3  
-> 📹 Target Application: Real-time cement bag detection from RTSP stream + Modbus coil trigger
+> 📹 Target Application: Real-time AI-based object detection and Modbus I/O integration for industrial automation use cases.
 
 ---
 
@@ -171,6 +171,7 @@ pip install tensorrt
 pip install torch==2.4.1 torchvision==0.19.1 --index-url https://download.pytorch.org/whl/cu124
 pip install ultralytics --no-deps
 pip install numpy matplotlib pandas pyyaml pillow psutil requests tqdm scipy seaborn
+pip install pymodbus
 ```
 
 ---
